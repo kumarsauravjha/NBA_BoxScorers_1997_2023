@@ -102,9 +102,13 @@ landing_page_layout = html.Div([
     'backgroundColor': '#E3FDFD', 
     'padding': '50px', 
     'border-radius': '10px', 
-    'width': '60%', 
+    'width': '150%', 
     'margin': '50px auto', 
-    'box-shadow': '0px 4px 10px rgba(0, 0, 0, 0.1)'
+    'box-shadow': '0px 4px 10px rgba(0, 0, 0, 0.1)',
+    'transform': 'scale(0.67)',    # Scale down the entire page to 67%
+    'transform-origin': 'top left',  # Make sure it scales from the top-left corner
+    # 'width': '150%',              # Adjust width to compensate for the scale
+    # 'height': '150%'
 })
 # Define the dashboard layout (the tabs section)
 dashboard_layout = html.Div([
@@ -176,7 +180,7 @@ dashboard_layout = html.Div([
         'color': 'white', 
         'border': 'none', 
         'cursor': 'pointer', 
-        'padding': '10px 20px',  # Proper padding for the button
+        # 'padding': '10px 20px',  # Proper padding for the button
         'border-radius': '10px',  # Rounded corners for the button
         'margin-top': '20px',  # Space above the button
         'display': 'block',  # Block-level button for centering
@@ -191,7 +195,7 @@ dashboard_layout = html.Div([
         'bottom': '20px',
         'right': '20px',
         'font-size': '16px',
-        'padding': '10px 20px',
+        # 'padding': '10px 20px',
         'background-color': '#007bff',
         'color': 'white',
         'border': 'none',
@@ -216,7 +220,7 @@ dashboard_layout = html.Div([
                     'background-color': '#28a745',
                     'color': 'white',
                     'border': 'none',
-                    'padding': '10px 20px',
+                    # 'padding': '10px 20px',
                     'border-radius': '5px',
                     'cursor': 'pointer'
                 }),
@@ -226,7 +230,7 @@ dashboard_layout = html.Div([
                     'background-color': '#dc3545',
                     'color': 'white',
                     'border': 'none',
-                    'padding': '10px 20px',
+                    # 'padding': '10px 20px',
                     'border-radius': '5px',
                     'cursor': 'pointer'
                 }),
@@ -259,6 +263,8 @@ dashboard_layout = html.Div([
     'margin': '0 auto',  # Center the entire layout
     'background-color': '#F0F8FF',  # Light background color
     'padding': '20px 20px',  # Balanced padding around the layout
+    'transform': 'scale(0.67)',    # Scale down the entire page to 67%
+    'transform-origin': 'top center',
 })
 
 
