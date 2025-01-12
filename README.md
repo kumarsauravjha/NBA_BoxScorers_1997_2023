@@ -2,6 +2,8 @@
 
 ![](assets/landing_page.jpg)
 
+[Click here](https://dashapp-37ytcez3sq-ue.a.run.app/)
+
 ## Project Overview
 This repository contains a comprehensive analysis and visualization project focused on the performance metrics of NBA players and teams from 1997 to 2023. Using data visualization, statistical analysis, and machine learning techniques, this project uncovers trends, patterns, and actionable insights from over 700,000 NBA game records.
 
@@ -30,8 +32,8 @@ This repository contains a comprehensive analysis and visualization project focu
   - Exportable CSV reports.
 - **Static Analysis and Visualization**:
   - Exploratory Data Analysis (EDA).
+  - Normality test (K-S test)
   - Outlier detection, correlation heatmaps, and PCA.
-  - Advanced visualizations: histograms, line plots, and regression plots.
 
 ### Technologies Used
 - Dash (for interactive web app development).
@@ -42,7 +44,7 @@ This repository contains a comprehensive analysis and visualization project focu
 ---
 
 ## Data Overview
-- **Dataset**: Scraped from [NBA.com](https://www.nba.com).
+- **Dataset**: Scraped from nba.com, hosted on [Kaggle](https://www.kaggle.com/datasets/szymonjwiak/nba-traditional).
 - **Records**: 702,387 observations.
 - **Features**:
   - **Numerical**: Points (PTS), Assists (AST), Rebounds (REB), Steals (STL), Minutes Played (MIN), Field Goal Percentage (FG%), etc.
