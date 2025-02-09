@@ -2,7 +2,7 @@
 
 ![](assets/landing_page.jpg)
 
-[Click here](https://dashapp-37ytcez3sq-ue.a.run.app/)
+[Click here]([https://dashapp-1036289720134.us-east1.run.app/])
 
 ## Project Overview
 This repository contains a comprehensive analysis and visualization project focused on the performance metrics of NBA players and teams from 1997 to 2023. Using data visualization, statistical analysis, and machine learning techniques, this project uncovers trends, patterns, and actionable insights from over 700,000 NBA game records.
